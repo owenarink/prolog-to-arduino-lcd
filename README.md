@@ -3,6 +3,9 @@ Displaying a Prolog query on LCD connected to an Arduino, which estimates the st
 
 To display the result of the  Prolog query to the LCD connected to the Arduino, the C++ code picks up the result of the query from the serial port and writes result to the Arduino.
 
+<p align = "center">
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=efBbUspbV2c" title="Youtube video player" frameborder="0" allow="accelerometer; autoplay, clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 There is a possibility you have to change the permissions in ubuntu for /dev/ttyACM0.
 you can do this by adding yourself to the dialout group (which sometimes permanently solves the issue): 
 
